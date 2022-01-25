@@ -1,0 +1,22 @@
+.button {
+    font-size: 40px;
+    display: block;
+    height:90px;
+    line-height:90px;
+    text-align:center;
+    border-radius: 8px;
+    border-color: #ff8928;
+    border-style: solid;
+    border-width: 2px;
+    padding:0 15px;
+    &-highted {
+        background-color: #ff8928;
+        color: white; 
+    }
+    &-normal {
+        background-color: white;
+        color: #ff8928; 
+    }
+}
+
+

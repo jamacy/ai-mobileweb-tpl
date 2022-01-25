@@ -1,0 +1,45 @@
+.load-error {
+  padding-top: 240px;
+  .error-img {
+    display: block;
+    width: 640px;
+    height: 512px;
+    margin: 0 auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  h3 {
+    padding: 0 100px;
+    line-height: 1.8;
+    margin-top: 50px;
+    color: #999;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+  }
+}
+
+.partial-error {
+  margin-top: 200px;
+  .img {
+    display: block;
+    width: 270px;
+    height: 169px;
+    margin: 0 auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  h3 {
+    padding: 0 100px;
+    line-height: 1.8;
+    margin-top: 40px;
+    font-weight: normal;
+    color: #999;
+    font-size: 40px;
+    text-align: center;
+  }
+}

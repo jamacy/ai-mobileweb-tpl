@@ -1,0 +1,320 @@
+@import '../../../assets/style/index.scss';
+$fa-css-prefix: fa !default;
+// @font-face {
+//   font-family: 'aiIconFont';  /* project id 2365255 */
+//   src: url('//at.alicdn.com/t/font_2365255_hyucaxin9uw.eot');
+//   src: url('//at.alicdn.com/t/font_2365255_hyucaxin9uw.eot?#iefix') format('embedded-opentype'),
+//   url('//at.alicdn.com/t/font_2365255_hyucaxin9uw.woff2') format('woff2'),
+//   url('//at.alicdn.com/t/font_2365255_hyucaxin9uw.woff') format('woff'),
+//   url('//at.alicdn.com/t/font_2365255_hyucaxin9uw.ttf') format('truetype'),
+//   url('//at.alicdn.com/t/font_2365255_hyucaxin9uw.svg#iconfont') format('svg');
+// }
+//at.alicdn.com/t/font_2365255_9ykx1lhsp2j
+@font-face {
+  font-family: 'aiIconFont'; /* project id 2365255 */
+  src: url('//at.alicdn.com/t/font_2365255_9ykx1lhsp2j.eot');
+  src: url('//at.alicdn.com/t/font_2365255_9ykx1lhsp2j.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2365255_9ykx1lhsp2j.woff2') format('woff2'), url('//at.alicdn.com/t/font_2365255_9ykx1lhsp2j.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2365255_9ykx1lhsp2j.ttf') format('truetype'), url('//at.alicdn.com/t/font_2365255_9ykx1lhsp2j.svg#iconfont') format('svg');
+}
+
+@font-face {
+  font-family: 'aiSealFont';  /* Project id 3052900 */
+  src: url('//at.alicdn.com/t/font_3052900_4y7sue99ys2.woff2?t=1640587194805') format('woff2'),
+       url('//at.alicdn.com/t/font_3052900_4y7sue99ys2.woff?t=1640587194805') format('woff'),
+       url('//at.alicdn.com/t/font_3052900_4y7sue99ys2.ttf?t=1640587194805') format('truetype');
+}
+
+.#{$icon-seal} {
+  font-family: 'aiSealFont' !important;
+  font-size: $icon-size-l;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &-weizhi:before {
+    content: "\e61b";
+  }
+  
+  &-xuanzhong1:before {
+    content: "\e61a";
+  }
+  
+  &-xuanzhong:before {
+    content: "\e617";
+  }
+  
+  &-wode:before {
+    content: "\e618";
+  }
+  
+  &-moren:before {
+    content: "\e619";
+  }
+  
+}
+
+.#{$icon} {
+  font-family: 'aiIconFont' !important;
+  font-size: $icon-size-l;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &-icontishi:before {
+    content: '\e616';
+  }
+
+  &-iconxuanzhongzhuangtai:before {
+    content: '\e614';
+  }
+
+  &-iconsousuo:before {
+    content: '\e646';
+  }
+
+  &-iconspinner:before {
+    content: '\e633';
+  }
+
+  &-iconshuaxinchenggong:before {
+    content: '\e634';
+  }
+
+  &-iconshifangshuaxin:before {
+    content: '\e635';
+  }
+
+  &-iconguanbi:before {
+    content: '\e632';
+  }
+
+  &-iconyishanchu:before {
+    content: '\e631';
+  }
+
+  &-iconyibaocun:before {
+    content: '\e630';
+  }
+  &-iconwangfan:before {
+    content: '\e62f';
+  }
+  &-iconfeichuan:before {
+    content: '\e62d';
+  }
+
+  &-iconhuoche:before {
+    content: '\e62e';
+  }
+
+  &-iconwodeshenpi:before {
+    content: '\e62c';
+  }
+
+  &-iconshenpibohui:before {
+    content: '\e781';
+  }
+
+  &-iconshenpitongguo:before {
+    content: '\e782';
+  }
+
+  &-iconshenpizhong:before {
+    content: '\e783';
+  }
+
+  &-iconchalvyongche:before {
+    content: '\e62b';
+  }
+
+  &-iconjiabanyongche:before {
+    content: '\e62a';
+  }
+
+  &-iconshangwuchuhang:before {
+    content: '\e629';
+  }
+
+  &-icondanxuan1:before {
+    content: '\e74b';
+  }
+
+  &-icondanxuan:before {
+    content: '\e74c';
+  }
+
+  &-icontianjia:before {
+    content: '\e758';
+  }
+
+  &-iconjindutiaoweixuanzhong:before {
+    content: '\e628';
+  }
+
+  &-iconjindutiaoxuanzhong:before {
+    content: '\e627';
+  }
+
+  &-iconxiayibu:before {
+    content: '\e751';
+  }
+
+  &-iconbianji:before {
+    content: '\e753';
+  }
+
+  &-iconfuxuan:before {
+    content: '\e74a';
+  }
+
+  &-iconfuxuan1:before {
+    content: '\e754';
+  }
+
+  &-iconmeituan:before {
+    content: '\e626';
+  }
+
+  &-icondidi:before {
+    content: '\e625';
+  }
+
+  &-icondingwei:before {
+    content: '\e624';
+  }
+
+  &-iconqiche:before {
+    content: '\e623';
+  }
+
+  &-iconjiudian:before {
+    content: '\e622';
+  }
+
+  &-iconfeiji:before {
+    content: '\e620';
+  }
+
+  &-icondaoda:before {
+    content: '\e619';
+  }
+
+  &-iconshanchu:before {
+    content: '\e74d';
+  }
+
+  &-iconchalvshenqing:before {
+    content: '\e618';
+  }
+
+  &-iconchalvbaoxiao:before {
+    content: '\e617';
+  }
+}
+
+.#{$tiny-icon} {
+  font-family: 'aiIconFont' !important;
+  font-size: $icon-size-l;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &-iconspinner:before {
+    content: '\e633';
+  }
+
+  &-iconshuaxinchenggong:before {
+    content: '\e634';
+  }
+
+  &-iconshifangshuaxin:before {
+    content: '\e635';
+  }
+  &-icondanxuan:before {
+    content: '\e74c';
+  }
+}
+@mixin fa-icon-rotate($degrees, $rotation) {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})';
+  -webkit-transform: rotate($degrees);
+  -ms-transform: rotate($degrees);
+  transform: rotate($degrees);
+}
+
+@mixin fa-icon-flip($horiz, $vert, $rotation) {
+  -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation}, mirror=1)';
+  -webkit-transform: scale($horiz, $vert);
+  -ms-transform: scale($horiz, $vert);
+  transform: scale($horiz, $vert);
+}
+
+// Rotated & Flipped Icons
+// -------------------------
+
+.#{$fa-css-prefix}-rotate-90 {
+  @include fa-icon-rotate(90deg, 1);
+}
+.#{$fa-css-prefix}-rotate-180 {
+  @include fa-icon-rotate(180deg, 2);
+}
+.#{$fa-css-prefix}-rotate-270 {
+  @include fa-icon-rotate(270deg, 3);
+}
+
+.#{$fa-css-prefix}-flip-horizontal {
+  @include fa-icon-flip(-1, 1, 0);
+}
+.#{$fa-css-prefix}-flip-vertical {
+  @include fa-icon-flip(1, -1, 2);
+}
+
+// Hook for IE8-9
+// -------------------------
+
+:root .#{$fa-css-prefix}-rotate-90,
+:root .#{$fa-css-prefix}-rotate-180,
+:root .#{$fa-css-prefix}-rotate-270,
+:root .#{$fa-css-prefix}-flip-horizontal,
+:root .#{$fa-css-prefix}-flip-vertical {
+  filter: none;
+}
+
+.#{$fa-css-prefix}-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+.#{$fa-css-prefix}-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
